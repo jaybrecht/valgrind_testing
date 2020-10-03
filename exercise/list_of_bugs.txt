@@ -1,0 +1,6 @@
+Valgrind Exercise
+
+Bugs in code:
+    - in main.cpp:9 the boolean "terminator" is used in a conditional statement without being initialized.
+    - in AnalogSensor.cpp:16 a raw pointer is created but is never deleted, this leads to a memory leak
+    
